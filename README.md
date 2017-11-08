@@ -24,6 +24,7 @@ activity_layout.xml :
 
 set image :
 ```
+List<Media> medias = new ArrayList<>();
 medias.add(new Media("ios", "https://www.apple.com/kr/ios/images/og.png?201709110842"));
 medias.add(new Media("kotlin", "https://kotlinlang.org/assets/images/twitter-card/kotlin_800x320.png"));
 
