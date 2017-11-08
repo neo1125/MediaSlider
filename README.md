@@ -4,7 +4,7 @@ Gradle dependency  ```build.gradle```
 
 ```
 dependencies {
-	compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
     compile 'com.neo1125:mediaslider:0.1.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.google.android.exoplayer:exoplayer:r2.4.0'
