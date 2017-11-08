@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">library</string>
+    <integer name="id_viewpager">12345</integer>
+</resources>
