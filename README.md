@@ -11,7 +11,9 @@ dependencies {
 }
 ```
 
-Example Usage:
+## Example Usage:
+
+activity_layout.xml :
 ```
 <com.neo1125.mediaslider.MediaSliderView
         android:id="@+id/mediaSliderView"
@@ -20,14 +22,19 @@ Example Usage:
         />
 ```
 
+set image :
 ```
-// set image
 medias.add(new Media("ios", "https://www.apple.com/kr/ios/images/og.png?201709110842"));
 medias.add(new Media("kotlin", "https://kotlinlang.org/assets/images/twitter-card/kotlin_800x320.png"));
 
-// set video
-medias.add(new Media(Media.Type.video, "1", Environment.getExternalStorageDirectory().getAbsolutePath() + "/download/test.mp4"));
+```
 
+set video : 
+```
+medias.add(new Media(Media.Type.video, "1", Environment.getExternalStorageDirectory().getAbsolutePath() + "/download/test.mp4"));
+```
+
+```
 mediaSliderView = findViewById(R.id.mediaSliderView);
 mediaSliderView.setAdapter(new MediaSliderAdapter() {
     @Override
