@@ -5,13 +5,9 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MotionEvent;
-import android.view.View;
 
 import com.neo1125.mediaslider.Media;
 import com.neo1125.mediaslider.MediaSliderAdapter;
-import com.neo1125.mediaslider.MediaSliderEventListner;
 import com.neo1125.mediaslider.MediaSliderView;
 
 import java.util.ArrayList;
