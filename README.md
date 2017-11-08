@@ -1,5 +1,10 @@
 # MediaSlider
 
+[![Language](https://img.shields.io/badge/language-Java-orange.svg?style=flat)]()
+
+## Example
+![](/images/example.gif)
+
 Gradle dependency  ```build.gradle```
 
 ```
